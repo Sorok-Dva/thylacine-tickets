@@ -1,0 +1,19 @@
+{
+  "name": "thylacine-ticket",
+  "version": "0.0.1",
+  "description": "Get notified once tickets are available",
+  "author": "Сорок два",
+  "private": true,
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "cron": "^1.8.2",
+    "discord-bot-webhook": "^1.0.4",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "puppeteer": "^10.2.0",
+    "request": "^2.88.0"
+  },
+  "main": "app.js"
+}
